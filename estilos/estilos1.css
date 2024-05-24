@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+    --background: #02050e;
+    --primary: #1e50ff;
+    --secondary: #272d37;
+    --btn-bg: #050d26;
+    --bg-azul-10: #e9eeff;
+    --bg-white: #fff;
+    --bg-electric: #f0fbff;
+    --nav-bg: #0f1525;
+    --text-gray: #adb9c7;
+    --text-white: #f3f4f6;
+    --fire: #ff6d00;
+    --electric: #64d3ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text-white);
+    font-family: "Poppins", sans-serif;
+}
+
+/* Header */
+#main-header {
+    background: linear-gradient(to bottom, #121e3c, var(--background));
+    display: flex;
+    height: 4rem;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.carrito-icono {
+    flex: 0 0 auto;
+    margin-right: 2rem;
+    margin-left: 9rem;
+}
+
+.nucba-icono {
+    flex: 0 0 auto;
+    margin-left: 2rem;
+}
+
+.nav-links {
+    display: flex;
+    flex: 1;  
+    justify-content: flex-end; 
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-gray);
+}
+
+.home {
+    color: var(--text-white);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Seccion inicial */
+
+#seccion-inicial {
+    margin-top: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+#info-pagina {
+    width: 500px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+#info-pagina h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+#info-pagina p {
+    color: var(--text-gray);
+    margin-bottom: 2rem;
+    font-size: 14px;
+    width: 85%;
+}
+
+#info-pagina button {
+    border-style: none;
+    color: var(--text-white);
+    background-color: var(--primary);
+    width: 8rem;
+    height: 2.4rem;
+    border-radius: .8rem;
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+.cartita {
+    padding: 1.2rem;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--secondary);
+    border-radius: 1rem;
+}
+
+.cartita h3 {
+    font-size: 1rem;
+}
+
+.cartita img {
+    width: 100%;
+    align-self: center;
+    margin-bottom: 1.2rem;
+}
+
+.titulo-carta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .6rem;
+}
+
+.titulo-carta button {
+    background-color: #1e50ff;
+    border-style: none;
+    width: 3rem;
+    height: 2rem;
+    border-radius: .5rem;
+    font-weight: 500;
+    color: var(--text-white);
+    font-size: 1rem;
+}
+
+.info-carta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.creador-carta {
+    display: flex;
+    align-items: center;
+}
+
+.texto-carta {
+    align-items: center;
+}
+
+.p1 {
+    font-size: 14px;
+    color: var(--text-gray);
+}
+
+.imagen-creador {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+/* Seccion dos */
+#seccion-dos {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#seccion-dos h2 {
+    margin-bottom: 5rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.cuadros {
+    display: flex;
+    gap: 1.3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cuadro-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    width: 260px;
+    min-height: 270px;
+    background-color: var(--secondary);
+    border-radius: 1.5rem;
+}
+
+.cuadro-info img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cuadro-info p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: var(--text-gray);
+    text-align: center;
+}

@@ -1,0 +1,122 @@
+/* Header */
+nav a::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 2px;
+    right: 0;
+    background: var(--text-gray);
+    transition: width 0.2s ease, right 0.2s ease;
+}
+
+nav a:hover::after {
+    width: 100%;
+    right: 0;
+}
+
+/* Seccion 1 */
+#info-pagina h1 {
+    opacity: 0;
+    animation: fade 1s ease-in forwards, slide-up 1.3s ease-in-out;
+    animation-delay: 0.3s;
+}
+
+#info-pagina p {
+    opacity: 0;
+    animation: fade 1s ease-in forwards, slide-up 1.3s ease-in-out;
+    animation-delay: 0.4s;
+}
+
+#info-pagina button {
+    transition: background-color 0.3s ease;
+    opacity: 0;
+    animation: fade 1s ease-in forwards, slide-up 1.3s ease-in-out;
+    animation-delay: 0.5s;
+}
+
+#info-pagina button:hover {
+    background-color: var(--fire);
+}
+
+.cartita {
+    opacity: 0;
+    animation: fade 1s ease-in forwards, slide-right 1.3s ease-in-out;
+    animation-delay: 0.1s;
+
+}
+
+/* Seccion 2 */
+#seccion-dos h2 {
+    opacity: 0;
+    animation: fade 1s ease-in forwards, slide-up 1.3s ease-in-out;
+    animation-delay: 0.3s;
+}
+
+.cuadro-info:nth-child(1){
+    opacity: 0;
+    animation: fade 1s ease-in forwards, slide-up 1.3s ease-in-out;
+    animation-delay: 0.7s;
+}
+
+.cuadro-info:nth-child(2){
+    opacity: 0;
+    animation: fade 1s ease-in forwards, slide-up 1.3s ease-in-out;
+    animation-delay: 1s;
+}
+
+.cuadro-info:nth-child(3){
+    opacity: 0;
+    animation: fade 1s ease-in forwards, slide-up 1.3s ease-in-out;
+    animation-delay: 1.2s;
+}
+
+/* Seccion 4 */
+.carta-grande img {
+    transition: transform 0.4s ease;
+}
+
+.carta-grande img:hover {
+    transform: scale(1.02);
+}
+
+.texto-carta-grande button{
+    transition: background-color 0.3s ease;
+}
+
+.texto-carta-grande button:hover {
+    background-color: var(--fire);
+}
+
+.boton-ver-mas button {
+    transition: background-color 0.3s ease;
+}
+
+.boton-ver-mas button:hover {
+    background-color: var(--electric);
+}
+
+/* Keyframes */
+@keyframes fade {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slide-right {
+    from {
+        transform: translateX(100PX);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-up {
+    from {
+        transform: translateY(100PX);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
