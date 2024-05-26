@@ -75,7 +75,6 @@
 }
 
 .boton {
-    border-style: none;
     width: 90px;
     height: 2.5rem;
     color: var(--text-white);
@@ -136,7 +135,6 @@
 }
 
 .texto-carta-grande button{
-    border-style: none;
     height: 40px;
     width: 90px;
     background-color: var(--primary);
@@ -201,7 +199,8 @@ footer{
     height: 100vh;
     z-index: 9;
     padding: 2rem;
-    overflow: auto;
+    overflow: scroll;
+    padding-bottom: 10rem;
 }
 
 .sidebar h2 {
@@ -216,10 +215,12 @@ footer{
 }
 .nft {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     border: 1px solid var(--electric);
     background-color: #2323234e;
     padding: 1.5rem;
+    padding-right: .5rem;
     border-radius: .7rem;
 }
 
@@ -230,7 +231,6 @@ footer{
 .suma-resta-nft {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .cuadro {
@@ -258,4 +258,20 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.side-bar-boton {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+    
+}
+
+.side-bar-boton button {
+    height: 2.3rem;
+    width: 100%;
+    background-color: #1e50ff;
+    color: var(--text-white);
+    border-radius: 8px;
 }

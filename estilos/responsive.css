@@ -37,3 +37,10 @@
         font-size: 1rem;
     }
 }
+
+@media (max-width: 480px){
+    .sidebar {
+        width: 92%;
+        right: -500px;
+    }
+}
