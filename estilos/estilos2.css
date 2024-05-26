@@ -127,20 +127,9 @@
 
 .img-texto {
     display: flex;
-    /* flex-direction: row;*/
     align-items: center; 
     column-gap: 10px;
 }
-
-/* .img-texto img {
-    width: 24px;
-    /* height: 30px;
-} */
-
-/* .imagen-creador2 {
-    width: 40px;
-    height: 40px;
-} */
 
 .imagen-fuego {
     width: 40px;
@@ -198,4 +187,66 @@ footer{
     margin-bottom: 3rem;
     display: flex;
     justify-content: center;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    margin-top: 2.4rem;
+    right: -425px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top, #121e3c, var(--background));
+    width: 360px;
+    height: 100vh;
+    z-index: 9;
+    padding: 2rem;
+    overflow: auto;
+}
+
+
+.nfts {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.nft {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    padding: 1.5rem;
+    border-radius: .7rem;
+}
+
+.nft img {
+    width: 70px;
+}
+
+.suma-resta-nft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadro {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: .3rem;
+}
+
+.colored-line {
+    height: 2px;
+    background-color: white;
+    width: 100%; 
+    margin: 20px 0;
+}
+
+.total-nft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

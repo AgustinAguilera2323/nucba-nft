@@ -38,6 +38,12 @@ body {
     position: fixed;
     width: 100%;
     z-index: 9;
+    /* background: linear-gradient(to bottom, #121e3c, var(--background));
+    display: flex;
+    height: 4rem;
+    position: fixed;
+    width: 100%;
+    z-index: 9; */
 }
 
 .navbar {
@@ -49,7 +55,7 @@ body {
 }
 
 .carrito-icono {
-    flex: 0 0 auto;
+    /* flex: 0 0 auto; */
     margin-right: 2rem;
     margin-left: 9rem;
 }
