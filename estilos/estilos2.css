@@ -69,7 +69,7 @@
 
 #seccion-cuatro nav {
     display: flex;
-    flex-direction: center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
 }

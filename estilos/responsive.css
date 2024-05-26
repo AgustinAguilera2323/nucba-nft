@@ -21,4 +21,19 @@
     .nav-links {
         display: none;
     }
+
+    .titulo-seccion2 {
+        text-align: center;
+    }
+
+    #seccion-cuatro nav {
+        width: 400px;
+    }
+
+    .boton {
+        flex: 1 1 30%;
+        width: 100px;
+        height: 2.8rem;
+        font-size: 1rem;
+    }
 }
