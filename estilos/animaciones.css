@@ -102,7 +102,15 @@ nav a:hover::after {
 }
 
 #toggle-sidebar:checked + .sidebar {
-    right: 0; /* Muestra el sidebar cuando el checkbox está marcado */
+    right: 0; 
+}
+
+.cuadro {
+    transition: background-color 0.3s ease;
+}
+
+.cuadro:hover {
+    background-color: var(--electric);
 }
 
 /* Keyframes */

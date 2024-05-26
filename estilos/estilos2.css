@@ -204,6 +204,10 @@ footer{
     overflow: auto;
 }
 
+.sidebar h2 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
 
 .nfts {
     display: flex;
@@ -213,7 +217,8 @@ footer{
 .nft {
     display: flex;
     justify-content: space-between;
-    border: 1px solid white;
+    border: 1px solid var(--electric);
+    background-color: #2323234e;
     padding: 1.5rem;
     border-radius: .7rem;
 }
@@ -234,13 +239,17 @@ footer{
     margin: 1rem;
     width: 25px;
     height: 25px;
-    border: 1px solid white;
+    border: 1px solid var(--electric);
     border-radius: .3rem;
+}
+
+.cuadro:nth-child(1) {
+    background-color: #272d37;
 }
 
 .colored-line {
     height: 2px;
-    background-color: white;
+    background-color: var(--electric);
     width: 100%; 
     margin: 20px 0;
 }
